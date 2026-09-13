@@ -1,0 +1,83 @@
+<svg viewBox="0 0 980 424" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal bio of Saksham Gupta">
+  <defs>
+    <clipPath id="tc1"><rect x="50" y="68" width="0.01" height="22">
+      <animate attributeName="width" values="0.01;60" begin="0.4s" dur="0.7s" fill="freeze"/>
+    </rect></clipPath>
+    <clipPath id="tc2"><rect x="50" y="134" width="0.01" height="22">
+      <animate attributeName="width" values="0.01;165" begin="2.0s" dur="1.2s" fill="freeze"/>
+    </rect></clipPath>
+    <clipPath id="tc3"><rect x="50" y="228" width="0.01" height="22">
+      <animate attributeName="width" values="0.01;155" begin="4.2s" dur="1.1s" fill="freeze"/>
+    </rect></clipPath>
+    <clipPath id="tc4"><rect x="50" y="322" width="0.01" height="22">
+      <animate attributeName="width" values="0.01;205" begin="6.3s" dur="1.35s" fill="freeze"/>
+    </rect></clipPath>
+    <style><![CDATA[
+      .ln { opacity: 0; animation: show 0.05s linear forwards; }
+      .p1 { animation-delay: 0.3s; }  .o1 { animation-delay: 1.3s; }
+      .p2 { animation-delay: 1.8s; }  .o2 { animation-delay: 3.4s; }  .o3 { animation-delay: 3.6s; }
+      .p3 { animation-delay: 4.0s; }  .o4 { animation-delay: 5.5s; }  .o5 { animation-delay: 5.7s; }
+      .p4 { animation-delay: 6.1s; }  .o6 { animation-delay: 7.85s; }
+      .p5 { animation-delay: 8.3s; }
+      @keyframes show { to { opacity: 1; } }
+      .cursor { animation: blink 1.1s steps(2, start) infinite; }
+      @keyframes blink { to { visibility: hidden; } }
+      @media (prefers-reduced-motion: reduce) {
+        .ln { animation: none !important; opacity: 1 !important; }
+        .cursor { animation: none !important; }
+      }
+    ]]></style>
+  </defs>
+
+  <rect x="1" y="1" width="978" height="422" rx="14" fill="#10131c" stroke="#2a3346" stroke-width="2"/>
+  <path d="M1 15 A14 14 0 0 1 15 1 H965 A14 14 0 0 1 979 15 V44 H1 Z" fill="#162033"/>
+  <circle cx="26" cy="23" r="6.5" fill="#fb7185"/>
+  <circle cx="48" cy="23" r="6.5" fill="#fbbf24"/>
+  <circle cx="70" cy="23" r="6.5" fill="#34d399"/>
+  <text x="490" y="28" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="13" fill="#7f8aa8">saksham@ntu - zsh</text>
+
+  <g font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15.5">
+    <text class="ln p1" x="30" y="84" fill="#34d399" font-weight="700">$</text>
+    <text x="50" y="84" fill="#d7e3ff" clip-path="url(#tc1)">whoami</text>
+    <rect x="50" y="70" width="9" height="18" fill="#6ee7f9" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.01s" begin="0.32s" fill="freeze"/>
+      <animate attributeName="x" values="50;110" begin="0.4s" dur="0.7s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" dur="0.01s" begin="1.6s" fill="freeze"/>
+    </rect>
+    <text class="ln o1" x="30" y="112" fill="#b8c4e6">Software Developer - 2 yrs building AI integrated systems end to end</text>
+
+    <text class="ln p2" x="30" y="150" fill="#34d399" font-weight="700">$</text>
+    <text x="50" y="150" fill="#d7e3ff" clip-path="url(#tc2)">cat education.txt</text>
+    <rect x="50" y="136" width="9" height="18" fill="#6ee7f9" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.01s" begin="1.82s" fill="freeze"/>
+      <animate attributeName="x" values="50;215" begin="2.0s" dur="1.2s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" dur="0.01s" begin="3.3s" fill="freeze"/>
+    </rect>
+    <text class="ln o2" x="30" y="178" fill="#b8c4e6"><tspan fill="#6ee7f9" font-weight="700">2026-27</tspan><tspan dx="10">MSc Artificial Intelligence - NTU Singapore</tspan><tspan fill="#7f8aa8" dx="8">(Aug 2026 - Jun 2027)</tspan></text>
+    <text class="ln o3" x="30" y="206" fill="#b8c4e6"><tspan fill="#6ee7f9" font-weight="700">2020-24</tspan><tspan dx="10">B.Tech Information Technology - MAIT</tspan></text>
+
+    <text class="ln p3" x="30" y="244" fill="#34d399" font-weight="700">$</text>
+    <text x="50" y="244" fill="#d7e3ff" clip-path="url(#tc3)">career --history</text>
+    <rect x="50" y="230" width="9" height="18" fill="#6ee7f9" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.01s" begin="4.02s" fill="freeze"/>
+      <animate attributeName="x" values="50;205" begin="4.2s" dur="1.1s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" dur="0.01s" begin="5.4s" fill="freeze"/>
+    </rect>
+    <text class="ln o4" x="30" y="272" fill="#b8c4e6"><tspan fill="#a78bfa" font-weight="700">2024-26</tspan><tspan dx="10">Lead Software Developer - Curer</tspan><tspan fill="#7f8aa8" dx="8">AI healthcare systems</tspan></text>
+    <text class="ln o5" x="30" y="300" fill="#b8c4e6"><tspan fill="#a78bfa" font-weight="700">2024</tspan><tspan dx="10">Google Summer of Code - IOOS</tspan><tspan fill="#7f8aa8" dx="8">scientific Python tooling</tspan></text>
+
+    <text class="ln p4" x="30" y="338" fill="#34d399" font-weight="700">$</text>
+    <text x="50" y="338" fill="#d7e3ff" clip-path="url(#tc4)">grep -ri "interests" .</text>
+    <rect x="50" y="324" width="9" height="18" fill="#6ee7f9" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.01s" begin="6.12s" fill="freeze"/>
+      <animate attributeName="x" values="50;255" begin="6.3s" dur="1.35s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" dur="0.01s" begin="7.8s" fill="freeze"/>
+    </rect>
+    <text class="ln o6" x="30" y="366" fill="#fbbf24">Agentic AI - RAG - NLP - ML - Deep Learning - production systems</text>
+
+    <g class="ln p5">
+      <text x="30" y="392" fill="#34d399" font-weight="700">$</text>
+      <rect class="cursor" x="52" y="378" width="9" height="18" fill="#6ee7f9"/>
+    </g>
+  </g>
+</svg>

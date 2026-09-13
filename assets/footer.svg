@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1200 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Thanks for stopping by - let's build something intelligent">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#10131c"/>
+      <stop offset="0.52" stop-color="#151a26"/>
+      <stop offset="1" stop-color="#0f1f24"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="260" y1="0" x2="940" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+      <stop offset="0" stop-color="#6ee7f9"/>
+      <stop offset="0.42" stop-color="#34d399"/>
+      <stop offset="0.75" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#6ee7f9"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-600 0; 600 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-80%" width="200%" height="260%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#6ee7f9" flood-opacity="0.35"/>
+    </filter>
+    <style><![CDATA[
+      .dash { stroke-dasharray: 8 12; animation: move 1.8s linear infinite; }
+      @keyframes move { to { stroke-dashoffset: -20; } }
+      .dot { animation: pulse 2.7s ease-in-out infinite; }
+      .d2 { animation-delay: 0.6s; } .d3 { animation-delay: 1.2s; } .d4 { animation-delay: 1.8s; }
+      @keyframes pulse { 0%, 100% { opacity: 0.32; transform: scale(0.9); } 50% { opacity: 1; transform: scale(1.08); } }
+      @media (prefers-reduced-motion: reduce) {
+        .dash, .dot { animation: none !important; }
+      }
+    ]]></style>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="168" rx="14" fill="url(#bg)" stroke="#2a3346" stroke-width="2"/>
+  <path class="dash" d="M90 86 C220 28 350 142 480 84 C610 26 725 140 850 84 C980 26 1068 72 1110 86" stroke="#6ee7f9" stroke-opacity="0.25" stroke-width="2" fill="none"/>
+  <g fill="#34d399">
+    <circle class="dot" cx="142" cy="70" r="4"/>
+    <circle class="dot d2" cx="360" cy="118" r="4"/>
+    <circle class="dot d3" cx="626" cy="50" r="4"/>
+    <circle class="dot d4" cx="884" cy="106" r="4"/>
+    <circle class="dot d2" cx="1058" cy="75" r="4"/>
+  </g>
+  <text x="600" y="78" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="0" fill="url(#textGrad)" filter="url(#glow)">Thanks for stopping by</text>
+  <text x="600" y="113" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#b8c4e6">let's build something intelligent</text>
+</svg>
