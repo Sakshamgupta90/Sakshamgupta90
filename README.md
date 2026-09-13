@@ -12,7 +12,7 @@
 ## 🧑‍💻 whoami
 
 <div align="center">
-  <img src="assets/export.svg" alt="Terminal bio: Software Developer, MSc Artificial Intelligence @ NTU Singapore (Aug 2026 - Jun 2027), B.Tech Information Technology - MAIT, Lead Software Developer @ Curer, Google Summer of Code @ IOOS" width="100%"/>
+  <img src="assets/terminal.svg" alt="Terminal bio: Software Developer, MSc Artificial Intelligence @ NTU Singapore (Aug 2026 - Jun 2027), B.Tech Information Technology - MAIT, Lead Software Developer @ Curer, Google Summer of Code @ IOOS" width="100%"/>
 </div>
 
 Software Developer with **2 years building AI integrated systems end-to-end**.
