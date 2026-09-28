@@ -110,9 +110,10 @@ Python on AWS, **serving 200+ active users**.
 
 | Hackathon | What I Built | Link |
 |---|---|---|
+| NUS-ISS Show Me Your Agents 2026 | Built **AutoDiagnose AI**, an agentic vehicle fault diagnosis copilot using RAG over automotive fault data and diagnostic flowcharts, with multimodal inputs, VIN/OBD-II context, LLM fallback for unseen faults, and feedback-driven knowledge updates. | [GitHub](https://github.com/Sakshamgupta90/AutoDiagnoseAI) |
 | Agents, Everywhere powered by OpenAI | **Accord** - Slack-native agent that detects decision changes, investigates repo/data impact, and reports evidence back in-thread.  | [GitHub](https://github.com/Sakshamgupta90/accord) |
 | Daytona | Built **MCP-Forge**, a multi-agent compiler that turns API specs or cURL requests into MCP servers with generated test harnesses, Daytona sandbox deployment, automated functional testing, and red-team security checks.  | [GitHub](https://github.com/Sakshamgupta90/daytona-hackathon) |
-| NUS-ISS Show Me Your Agents 2026 | Built **AutoDiagnose AI**, an agentic vehicle fault diagnosis copilot using RAG over automotive fault data and diagnostic flowcharts, with multimodal inputs, VIN/OBD-II context, LLM fallback for unseen faults, and feedback-driven knowledge updates. | [GitHub](https://github.com/Sakshamgupta90/AutoDiagnoseAI) |
+
 
 
 
